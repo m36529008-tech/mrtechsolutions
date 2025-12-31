@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mrtechsolutions.gt.tc/sitemap.xml
+Sitemap: https://m36529008-tech.github.io/mrtechsolutions/sitemap.xml
