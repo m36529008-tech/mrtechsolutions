@@ -1,11 +1,8 @@
 {
   "name": "MR Tech Solutions",
   "short_name": "MR Tech",
-  "start_url": "/",
+  "start_url": "/mrtechsolutions/",
   "display": "standalone",
   "background_color": "#0f172a",
-  "theme_color": "#0f172a",
-  "icons": [
-    { "src": "favicon.png", "sizes": "512x512", "type": "image/png" }
-  ]
+  "theme_color": "#0f172a"
 }
