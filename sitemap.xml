@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://mrtechsolutions.gt.tc/</loc></url>
-  <url><loc>https://mrtechsolutions.gt.tc/privacy.html</loc></url>
-  <url><loc>https://mrtechsolutions.gt.tc/terms.html</loc></url>
-  <url><loc>https://mrtechsolutions.gt.tc/resume.html</loc></url>
+
+  <url>
+    <loc>https://m36529008-tech.github.io/mrtechsolutions/</loc>
+  </url>
+
+  <url>
+    <loc>https://m36529008-tech.github.io/mrtechsolutions/privacy.html</loc>
+  </url>
+
+  <url>
+    <loc>https://m36529008-tech.github.io/mrtechsolutions/terms.html</loc>
+  </url>
+
 </urlset>
