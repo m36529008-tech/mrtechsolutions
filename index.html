@@ -1,106 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MR Tech Solutions | IT Services</title>
 
   <!-- SEO -->
   <meta name="description" content="MR Tech Solutions provides software development and IT consulting services in Pune, India.">
-  <meta name="keywords" content="IT Services Pune, Software Development India, MR Tech Solutions">
+  <meta name="keywords" content="IT Services Pune, Software Development, MR Tech Solutions">
   <meta name="author" content="Mahidhar Reddy D">
-  <meta name="theme-color" content="#2f3542">
+  <meta name="theme-color" content="#0f172a">
 
-  <!-- Favicon -->
-  <link rel="icon" href="favicon.png" type="image/png">
+  <!-- OpenGraph -->
+  <meta property="og:title" content="MR Tech Solutions">
+  <meta property="og:description" content="Advanced Software Development & IT Consulting">
+  <meta property="og:type" content="website">
 
-  <!-- Google Analytics (REPLACE ID) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-XXXXXXX');
-  </script>
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="favicon.png">
 
   <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <!-- <img src="logo.png" class="logo"> -->
-  <button class="dark-btn" onclick="toggleDark()">🌙</button>
-  <h1>MR Tech Solutions</h1>
-  <p>Innovate • Code • Deliver</p>
-</header>
+<nav class="navbar">
+  <div class="logo">MR Tech</div>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-<section>
-  <h2>About Us</h2>
-  <p class="center">
-    MR Tech Solutions is a Pune-based IT services proprietorship founded by
-    <strong>Mahidhar Reddy D</strong>. We deliver reliable, scalable software
-    and IT consulting services.
-  </p>
+<section id="home" class="hero reveal">
+  <h1>MR Tech Solutions</h1>
+  <p>Advanced Software Development & IT Consulting</p>
+  <a href="#contact" class="cta">Get Started</a>
 </section>
 
-<section>
+<section id="services" class="section reveal">
   <h2>Services</h2>
   <div class="grid">
     <div class="card">Software Development</div>
-    <div class="card">Web & Mobile App Development</div>
+    <div class="card">Web & Mobile Applications</div>
     <div class="card">IT Consulting</div>
     <div class="card">Freelance / Contract Work</div>
   </div>
 </section>
 
-<section>
+<section id="projects" class="section reveal">
   <h2>Projects</h2>
   <div class="grid">
-    <div class="card"><h3>Flutter Portfolio</h3><p>Flutter web & app portfolio.</p></div>
-    <div class="card"><h3>CRUD App</h3><p>Firebase-based CRUD system.</p></div>
-    <div class="card"><h3>Business Website</h3><p>Responsive IT services site.</p></div>
+    <div class="card">Flutter Portfolio App</div>
+    <div class="card">CRUD Application</div>
+    <div class="card">Business Website</div>
   </div>
 </section>
 
-<section>
-  <h2>Testimonials</h2>
-  <div class="grid">
-    <div class="card">“Professional & reliable.”</div>
-    <div class="card">“Clean code delivery.”</div>
-    <div class="card">“Highly recommended.”</div>
-  </div>
-</section>
-
-<section>
+<section id="contact" class="section reveal">
   <h2>Contact</h2>
   <form action="https://formsubmit.co/yourgmail@gmail.com" method="POST" class="contact-form">
     <input type="hidden" name="_captcha" value="false">
     <input type="text" name="name" placeholder="Your Name" required>
     <input type="email" name="email" placeholder="Your Email" required>
     <textarea name="message" placeholder="Your Message" required></textarea>
-    <button type="submit">Send Message</button>
+    <button type="submit">Send</button>
   </form>
   <p class="center">📞 +91 9398132203</p>
   <p class="center">📍 Pune, India</p>
-  <p class="center"><a href="resume.html">Founder Profile</a></p>
 </section>
 
 <footer>
   <p>
-    © 2025 MR Tech Solutions | Proprietorship | India<br>
+    © 2025 MR Tech Solutions |
     <a href="privacy.html">Privacy</a> |
-    <a href="terms.html">Terms</a> |
-    <a href="blog.html">Blog</a>
+    <a href="terms.html">Terms</a>
   </p>
 </footer>
 
-<a href="https://wa.me/919398132203" class="whatsapp" target="_blank">💬</a>
+<a href="https://wa.me/919398132203" class="whatsapp">💬</a>
 
+<script src="script.js"></script>
 <script>
-function toggleDark(){ document.body.classList.toggle("dark"); }
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js");
+}
 </script>
 
 </body>
