@@ -1,13 +1,7 @@
-mrtechsolutions/
-├── index.html
-├── style.css
-├── privacy.html
-├── terms.html
-├── resume.html
-├── blog.html
-├── 404.html
-├── sitemap.xml
-├── robots.txt
-├── README.md
-├── favicon.png        (optional)
-└── logo.png           (optional)
+# MR Tech Solutions
+
+Professional IT Services & Software Development  
+Pune, India
+
+Website: https://mrtechsolutions.gt.tc  
+Contact: +91 9398132203
