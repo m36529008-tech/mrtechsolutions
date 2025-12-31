@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mrtechsolutions.gt.tc/sitemap.xml
